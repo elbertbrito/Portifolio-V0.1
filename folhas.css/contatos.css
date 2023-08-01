@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'poppins';
+    src: url('fonts/Poppins-Light.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'ace';
+    src: url('fonts/BrunoAce-Regular.ttf') format('opentype')
+}
+
+.sobre_contatos h1 {
+    font-family: 'poppins', Helvetica, sans-serif;
+    color: #00d0ff;
+    margin-top: 5rem;
+    text-align: center;
+    font-weight: lighter;   
+}
+
+.sobre_contatos p {
+    font-family: 'poppins', Helvetica, sans-serif;
+    color:#f7f7f7;
+    text-align: center;
+    padding: 7px;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.sobre_contatos ul {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem; 
+}
